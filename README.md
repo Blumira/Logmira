@@ -17,7 +17,7 @@ Exporting a GPO (what we've done to create GPOLoggingImport.zip, and what should
 Importing a GPO
 1. After the file on the local DC, navigate to the same place in group policy management (the proper domain and expand group policy objects).
 
-##NOTE: Do not import settings on an existing GPO unless you want all settings overwritten by the import
+<b>NOTE: </b>Do not import settings on an existing GPO unless you want all settings overwritten by the import
 
 2. Create a NEW GPO by right-clicking on Group Policy Objects > New. 
 3. Give the new GPO a name (for example: Logging Settings)
