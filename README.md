@@ -1,20 +1,19 @@
 # Logmira
 
-Files:
+Logmira has been created as a helpful download of Microsoft Windows Domain Group Policy Object settings. This GPO Backup inclues our recommended windows logging settings for all supported versions of MS Windows Server. As opposed to following a list and manualy modifying 100 or so settings, it's way easier to just import it from a backup.
+
+<h2>Files:</h2>
 - GPOLoggingImport.zip contains the full GPO backup of only the recommended windows logging settings
 - gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup
 
-How to apply to your domain:
-To make it easier for our customers, Blumira has exported all of our recommended logging settings (found here https://www.blumira.com/how-to-optimize-windows-logging-for-security/).
-
-
-Exporting a GPO (what we've done to create GPOLoggingImport.zip, and what should be done for GPO Backups)
+<h2>Exporting a GPO </h2>
+(what we've done to create GPOLoggingImport.zip, and what should be done for GPO Backups)
 1. To begin the export process, open up the group policy management console, navigate to the proper domain, expand group policy objects and select the group policy object that you'd like to export.
 2. Right-click and select Back Up.
 3. Select the location the backup will be exported to, and the description. Then click Back Up.
 4. The files are then exported to the location selected, click OK.
 
-Importing a GPO
+<h2>Importing a GPO</h2>
 1. After the file on the local DC, navigate to the same place in group policy management (the proper domain and expand group policy objects).
 
 <b>NOTE: </b>Do not import settings on an existing GPO unless you want all settings overwritten by the import
