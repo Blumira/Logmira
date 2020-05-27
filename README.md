@@ -3,10 +3,10 @@
 Logmira has been created as a helpful download of Microsoft Windows Domain Group Policy Object settings. This GPO Backup inclues our recommended windows logging settings for all supported versions of MS Windows Server. As opposed to following a list and manualy modifying 100 or so settings, it's way easier to just import it from a backup.
 
 <h2>Files</h2>
-*GPOLoggingImport.zip contains the full GPO backup of only the recommended windows logging settings
-
-*gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup
-
+<ul>
+<li>GPOLoggingImport.zip contains the full GPO backup of only the recommended windows logging settings</li>
+<li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
+</ul>
 
 <h2>Exporting a GPO </h2>
 (what we've done to create GPOLoggingImport.zip, and what should be done for GPO Backups)
