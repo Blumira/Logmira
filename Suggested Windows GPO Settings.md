@@ -6,8 +6,8 @@ If you would like to create your own policy instead, refer to the documentation 
 ### Enable Advanced Auditing
 * `Computer Configuration> Policies> Windows Settings> Security Settings> Local Policies> Security Options`
   * Enable Force audit policy subcategory settings
-* Enable DNS Debugging on any DNS server
-* Enable command-line logging
+* [Enable DNS Debugging](https://www.blumira.com/integration/microsoft-windows-dns/) on any DNS server
+* [Enable command-line logging](https://github.com/Blumira/Logmira/blob/master/Advanced%20Microsoft%20Commandline%20Logging%20via%20GPO.md)
 * Event Log Sizes
   * `Computer Configuration> Policies> Windows Settings> Security Settings> Event Log`
   * Set the following values from the table below:
