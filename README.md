@@ -6,18 +6,18 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 
 <h2>Logmira - Full Verbosity Files</h2>
 <ul>
-<li>GPOLoggingImport.zip contains the full GPO backup of only the recommended windows logging settings</li>
+<li>Logmira-FV.zip contains the full GPO backup of only the recommended windows logging settings</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
 <h2>Logmira - Reduced Verbosity Files</h2>
 <ul>
-<li>GPOLoggingImport-ReducedVerbosity contains the full GPO backup of only the recommended windows logging settings, MINUS process creation and Audit Filtering Platform Connections</li>
+<li>Logmira-RV.zip contains the full GPO backup of only the recommended windows logging settings, MINUS process creation and Audit Filtering Platform Connections</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
 <h2>Exporting a GPO </h2>
-(what we've done to create GPOLoggingImport.zip, and what should be done for GPO Backups)
+(what we've done to create the zip files above, and what should be done for GPO Backups)
 <ol>
 <li>To begin the export process, open up the group policy management console, navigate to the proper domain, expand group policy objects and select the group policy object that you'd like to export.</li>
 <li>Right-click and select Back Up.</li>
