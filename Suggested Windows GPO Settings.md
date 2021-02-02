@@ -20,7 +20,7 @@ If you would like to create your own policy instead, refer to the documentation 
 | System Log Size	                      | 256k (or larger)     |
 
 ---
-### The following is the recommended baseline for Advanced Audit Policy Settings.
+### Advanced Audit Policy Settings.
 * Configure Advanced Audit Policies
   * `Computer Configuration> Policies> Windows Settings> Security Settings> Advanced Audit Policy Configuration> Audit Policies`
     * Set the following values from the tables below:
