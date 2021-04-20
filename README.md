@@ -4,15 +4,15 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 
 <b> NOTE:</b> Applying these settings are NOT recommended for devices with HDDs. The iop limits on spinning disks can cause issues with the delay of logs when they are a high volume.
 
-<h2>Logmira - Full Verbosity Files</h2>
+<h2>Logmira - Reduced Verbosity Files - RECOMMENDED</h2>
 <ul>
-<li>Logmira-FV.zip contains the full GPO backup of only the recommended windows logging settings</li>
+<li>Logmira-RV.zip contains the full GPO backup of only the recommended windows logging settings, MINUS process creation and Audit Filtering Platform Connections, as these can cause a great amount of unneeded logs and cause issues with other detections.</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
-<h2>Logmira - Reduced Verbosity Files</h2>
+<h2>Logmira - Full Verbosity/Debug Files - For troubleshooting and highly increased visibility</h2>
 <ul>
-<li>Logmira-RV.zip contains the full GPO backup of only the recommended windows logging settings, MINUS process creation and Audit Filtering Platform Connections</li>
+<li>Logmira-FV.zip contains the full GPO backup of only the recommended windows logging settings</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
