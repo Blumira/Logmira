@@ -10,15 +10,7 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
-<h2>Logmira - Full Verbosity/Debug Files - For troubleshooting and highly increased visibility</h2>
-<ul>
-<li>Logmira-FV.zip contains the full GPO backup of only the recommended windows logging settings</li>
-<li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
-<li>The following settings are included in Full Verbosity in addition to all settings that are included in the Reduced Verbosity version.</li>
-  <ul><li>Audit Process Creation
-      <li>Audit Detailed File Share
-    <li>Audit File System</li></ul>
-</ul>
+<h2>Logmira - Full Verbosity/Debug Files - Depreciated in favor of Sysmon and the fact that 5156 is unnecessarily loud</h2>
 
 <h2>Exporting a GPO </h2>
 (what we've done to create the zip files above, and what should be done for GPO Backups)
