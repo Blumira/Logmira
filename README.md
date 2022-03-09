@@ -4,9 +4,9 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 
 <b> NOTE:</b> Applying these settings are NOT recommended for devices with HDDs. The iop limits on spinning disks can cause issues with the delay of logs when they are a high volume.
 
-<h2>Logmira - Reduced Verbosity Files - RECOMMENDED</h2>
+<h2>Logmira</h2>
 <ul>
-<li>Logmira-RV.zip contains the full GPO backup of only the recommended windows logging settings, MINUS process creation and Audit Filtering Platform Connections, as these can cause a great amount of unneeded logs and cause issues with other detections.</li>
+<li>Logmira.zip contains the full GPO backup of only the recommended windows logging settings.</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
@@ -30,7 +30,7 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 <li>Give the new GPO a name (for example: Logging Settings)</li>
 <li>Right-click on the new GPO>"Import Settings"</li>
 <li>Next > Next > Select the location where the backup was saved if it is not selected already > Next</li>
-<li>Select the "Logging Template" Backed up GPO > Next > Next > Finish</li>
+<li>Select the "Logmira" Backed up GPO > Next > Next > Finish</li>
 </ol>
 You should now have a GPO created that you can link to any OU in your domain to apply the correct logging settings.
 
