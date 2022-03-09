@@ -4,7 +4,7 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 
 <b> NOTE:</b> Applying these settings are NOT recommended for devices with HDDs. The iop limits on spinning disks can cause issues with the delay of logs when they are a high volume.
 
-<h2>Logmira</h2>
+<h2>Logmira Files</h2>
 <ul>
 <li>Logmira.zip contains the full GPO backup of only the recommended windows logging settings.</li>
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
