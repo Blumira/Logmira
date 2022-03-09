@@ -10,8 +10,6 @@ Logmira has been created as a helpful download of Microsoft Windows Domain Group
 <li>gporeport.xml is also included inside the zip, but gives an overview of the settings within the backup</li>
 </ul>
 
-<h2>Logmira - Full Verbosity/Debug Files - Depreciated in favor of Sysmon and the fact that 5156 is unnecessarily loud</h2>
-
 <h2>Exporting a GPO </h2>
 (what we've done to create the zip files above, and what should be done for GPO Backups)
 <ol>
