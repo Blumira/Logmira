@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+- <Groups clsid="{3125E937-EB16-4b4c-9934-544FC6D24D26}">
+	- <User clsid="{DF5F1855-51E5-4d24-8B1A-D9BDE98BA1D1}" uid="{47F24835-4B58-4C48-A749-5747EAC84669}" changed="2013-07-04 00:07:13" image="2" name="LocalTestUser">
+		<Properties userName="LocalTestUser" subAuthority="" acctDisabled="0" neverExpires="0" noChange="0" changeLogon="1" cpassword="sFWOJZOU7bJICaqvmd+KAEN0o4RcpxxMLWnK7s7zgNR+JiJwoSa+DLU3kAIdXc1WW5NKrIjIe9MIdBuJHvqFgbcNS873bDK2nbQBqpydkjbsPXV0HRPpQ96phie6N9tn4NF3KYyswokkDnj8gvuyZBXqoG94ML8M1Iq7/jhe37eHJiZGyi5IBoPuCfKpurj2" description="" fullName="" newName="" action="0"/>
+	</User>
+</Groups>
