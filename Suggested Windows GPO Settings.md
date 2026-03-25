@@ -44,7 +44,7 @@ If you would like to create your own policy instead, refer to the documentation 
 |:-----------------------------------|:--------------------|
 | DPAPI Activity	                    | No Auditing         |
 | PNP (Plug and Play)	               | Success             |
-| Process Creation	                  | Success and Failure |
+| Process Creation	                  | Success             |
 | Process Termination                | No Auditing         |
 | RPC Events	                        | Success and Failure |
 | Token Right Adjusted	              | Success             |
@@ -75,7 +75,6 @@ If you would like to create your own policy instead, refer to the documentation 
 | Application Generated	             | Success and Failure |
 | Central Access Policy Staging	     | No Auditing         |
 | Certification Services	            | Success and Failure |
-| Detailed File Share	               | Success             |
 | File Share	                        | Success and Failure |
 | File System	                       | Success             |
 | Filtering Platform Connection      | Success             |
@@ -114,3 +113,14 @@ If you would like to create your own policy instead, refer to the documentation 
 |:-----------------------------------|:--------------------|
 | File System	                       | No Auditing         |
 | Registry	                          | No Auditing         |
+
+### Enable PowerShell Logging
+* `User Configuration> Policies> Administrative Templates> Windows Components> Windows PowerShell`
+  * Set the following values from the table below:
+
+| PowerShell Logging                       | Suggested Values |
+|:-----------------------------------------|:-----------------|
+| Turn on Module Logging                   | Enabled          |
+| Module Names                             | *                |
+| Turn on PowerShell Script Block Logging  | Enabled          |
+| Log script block invocation start / stop | Enabled          |
