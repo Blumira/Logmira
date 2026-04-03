@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<GPO xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.microsoft.com/GroupPolicy/Settings">
+  <Identifier>
+    <Identifier xmlns="http://www.microsoft.com/GroupPolicy/Types">{AA3A4A06-3CAE-42CE-8744-3E47E519A430}</Identifier>
+    <Domain xmlns="http://www.microsoft.com/GroupPolicy/Types">miratime.org</Domain>
+  </Identifier>
+  <Name>Logmira - DCs</Name>
+  <IncludeComments>true</IncludeComments>
+  <CreatedTime>2023-05-05T15:57:10</CreatedTime>
+  <ModifiedTime>2023-05-05T15:57:53</ModifiedTime>
+  <ReadTime>2023-05-05T16:03:11.5364363Z</ReadTime>
+  <SecurityDescriptor>
+    <SDDL xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">O:DAG:DAD:PAI(OA;CI;CR;edacfd8f-ffb3-11d1-b41d-00a0c968f939;;AU)(A;;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;S-1-5-21-2080119107-79042430-4151486730-519)(A;CI;LCRPLORC;;;ED)(A;CI;LCRPLORC;;;AU)(A;CI;CCDCLCSWRPWPDTLOSDRCWDWO;;;SY)(A;CIIO;CCDCLCSWRPWPDTLOSDRCWDWO;;;CO)S:AI(OU;CIIDSA;WPWD;;f30e3bc2-9ff0-11d1-b603-0000f80367c1;WD)(OU;CIIOIDSA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIOIDSA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)</SDDL>
+    <Owner xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">
+      <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-21-2080119107-79042430-4151486730-512</SID>
+      <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">MIRATIME\Domain Admins</Name>
+    </Owner>
+    <Group xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">
+      <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-21-2080119107-79042430-4151486730-512</SID>
+      <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">MIRATIME\Domain Admins</Name>
+    </Group>
+    <PermissionsPresent xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">true</PermissionsPresent>
+    <Permissions xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">
+      <InheritsFromParent>false</InheritsFromParent>
+      <TrusteePermissions>
+        <Trustee>
+          <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-9</SID>
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">NT AUTHORITY\ENTERPRISE DOMAIN CONTROLLERS</Name>
+        </Trustee>
+        <Type xsi:type="PermissionType">
+          <PermissionType>Allow</PermissionType>
+        </Type>
+        <Inherited>false</Inherited>
+        <Applicability>
+          <ToSelf>true</ToSelf>
+          <ToDescendantObjects>false</ToDescendantObjects>
+          <ToDescendantContainers>true</ToDescendantContainers>
+          <ToDirectDescendantsOnly>false</ToDirectDescendantsOnly>
+        </Applicability>
+        <Standard>
+          <GPOGroupedAccessEnum>Read</GPOGroupedAccessEnum>
+        </Standard>
+        <AccessMask>0</AccessMask>
+      </TrusteePermissions>
+      <TrusteePermissions>
+        <Trustee>
+          <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-21-2080119107-79042430-4151486730-519</SID>
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">MIRATIME\Enterprise Admins</Name>
+        </Trustee>
+        <Type xsi:type="PermissionType">
+          <PermissionType>Allow</PermissionType>
+        </Type>
+        <Inherited>false</Inherited>
+        <Applicability>
+          <ToSelf>true</ToSelf>
+          <ToDescendantObjects>false</ToDescendantObjects>
+          <ToDescendantContainers>true</ToDescendantContainers>
+          <ToDirectDescendantsOnly>false</ToDirectDescendantsOnly>
+        </Applicability>
+        <Standard>
+          <GPOGroupedAccessEnum>Edit, delete, modify security</GPOGroupedAccessEnum>
+        </Standard>
+        <AccessMask>0</AccessMask>
+      </TrusteePermissions>
+      <TrusteePermissions>
+        <Trustee>
+          <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-18</SID>
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">NT AUTHORITY\SYSTEM</Name>
+        </Trustee>
+        <Type xsi:type="PermissionType">
+          <PermissionType>Allow</PermissionType>
+        </Type>
+        <Inherited>false</Inherited>
+        <Applicability>
+          <ToSelf>true</ToSelf>
+          <ToDescendantObjects>false</ToDescendantObjects>
+          <ToDescendantContainers>true</ToDescendantContainers>
+          <ToDirectDescendantsOnly>false</ToDirectDescendantsOnly>
+        </Applicability>
+        <Standard>
+          <GPOGroupedAccessEnum>Edit, delete, modify security</GPOGroupedAccessEnum>
+        </Standard>
+        <AccessMask>0</AccessMask>
+      </TrusteePermissions>
+      <TrusteePermissions>
+        <Trustee>
+          <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-11</SID>
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">NT AUTHORITY\Authenticated Users</Name>
+        </Trustee>
+        <Type xsi:type="PermissionType">
+          <PermissionType>Allow</PermissionType>
+        </Type>
+        <Inherited>false</Inherited>
+        <Applicability>
+          <ToSelf>true</ToSelf>
+          <ToDescendantObjects>false</ToDescendantObjects>
+          <ToDescendantContainers>true</ToDescendantContainers>
+          <ToDirectDescendantsOnly>false</ToDirectDescendantsOnly>
+        </Applicability>
+        <Standard>
+          <GPOGroupedAccessEnum>Apply Group Policy</GPOGroupedAccessEnum>
+        </Standard>
+        <AccessMask>0</AccessMask>
+      </TrusteePermissions>
+      <TrusteePermissions>
+        <Trustee>
+          <SID xmlns="http://www.microsoft.com/GroupPolicy/Types">S-1-5-21-2080119107-79042430-4151486730-512</SID>
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">MIRATIME\Domain Admins</Name>
+        </Trustee>
+        <Type xsi:type="PermissionType">
+          <PermissionType>Allow</PermissionType>
+        </Type>
+        <Inherited>false</Inherited>
+        <Applicability>
+          <ToSelf>true</ToSelf>
+          <ToDescendantObjects>false</ToDescendantObjects>
+          <ToDescendantContainers>true</ToDescendantContainers>
+          <ToDirectDescendantsOnly>false</ToDirectDescendantsOnly>
+        </Applicability>
+        <Standard>
+          <GPOGroupedAccessEnum>Edit, delete, modify security</GPOGroupedAccessEnum>
+        </Standard>
+        <AccessMask>0</AccessMask>
+      </TrusteePermissions>
+    </Permissions>
+    <AuditingPresent xmlns="http://www.microsoft.com/GroupPolicy/Types/Security">false</AuditingPresent>
+  </SecurityDescriptor>
+  <FilterDataAvailable>true</FilterDataAvailable>
+  <Computer>
+    <VersionDirectory>2</VersionDirectory>
+    <VersionSysvol>2</VersionSysvol>
+    <Enabled>true</Enabled>
+    <ExtensionData>
+      <Extension xmlns:q1="http://www.microsoft.com/GroupPolicy/Settings/Security" xsi:type="q1:SecuritySettings">
+        <q1:SecurityOptions>
+          <q1:KeyName>MACHINE\System\CurrentControlSet\Control\Lsa\SCENoApplyLegacyAuditPolicy</q1:KeyName>
+          <q1:SettingNumber>1</q1:SettingNumber>
+          <q1:Display>
+            <q1:Name>Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings</q1:Name>
+            <q1:Units />
+            <q1:DisplayBoolean>true</q1:DisplayBoolean>
+          </q1:Display>
+        </q1:SecurityOptions>
+        <q1:EventLog>
+          <q1:Name>MaximumLogSize</q1:Name>
+          <q1:Log>Application</q1:Log>
+          <q1:SettingNumber>16384</q1:SettingNumber>
+        </q1:EventLog>
+        <q1:EventLog>
+          <q1:Name>MaximumLogSize</q1:Name>
+          <q1:Log>System</q1:Log>
+          <q1:SettingNumber>16384</q1:SettingNumber>
+        </q1:EventLog>
+        <q1:EventLog>
+          <q1:Name>MaximumLogSize</q1:Name>
+          <q1:Log>Security</q1:Log>
+          <q1:SettingNumber>2048000</q1:SettingNumber>
+        </q1:EventLog>
+        <q1:Blocked>false</q1:Blocked>
+      </Extension>
+      <Name>Security</Name>
+    </ExtensionData>
+    <ExtensionData>
+      <Extension xmlns:q2="http://www.microsoft.com/GroupPolicy/Settings/Auditing" xsi:type="q2:AuditSettings">
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Credential Validation</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce923f-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Kerberos Authentication Service</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9242-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Kerberos Service Ticket Operations</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9240-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Other Account Logon Events</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9241-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Application Group Management</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9239-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Computer Account Management</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9236-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Distribution Group Management</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9238-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Other Account Management Events</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce923a-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Security Group Management</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9237-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit User Account Management</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9235-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit PNP Activity</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9248-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Process Creation</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce922b-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit RPC Events</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce922e-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Token Right Adjusted</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce924a-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Directory Service Changes</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce923c-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Account Lockout</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9217-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Group Membership</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9249-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Logoff</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9216-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Logon</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9215-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Network Policy Server</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9243-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Other Logon/Logoff Events</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce921c-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Special Logon</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce921b-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Application Generated</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9222-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Certification Services</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9221-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Detailed File Share</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9244-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit File Share</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9224-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Removable Storage</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9245-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit SAM</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9220-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Audit Policy Change</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce922f-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Authentication Policy Change</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9230-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Authorization Policy Change</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9231-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Filtering Platform Policy Change</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9233-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Sensitive Privilege Use</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9228-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit IPsec Driver</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9213-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>1</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Other System Events</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9214-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>2</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Security State Change</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9210-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit Security System Extension</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9211-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+        <q2:AuditSetting>
+          <q2:PolicyTarget>System</q2:PolicyTarget>
+          <q2:SubcategoryName>Audit System Integrity</q2:SubcategoryName>
+          <q2:SubcategoryGuid>{0cce9212-69ae-11d9-bed3-505054503030}</q2:SubcategoryGuid>
+          <q2:SettingValue>3</q2:SettingValue>
+        </q2:AuditSetting>
+      </Extension>
+      <Name>Advanced Audit Configuration</Name>
+    </ExtensionData>
+    <ExtensionData>
+      <Extension xmlns:q3="http://www.microsoft.com/GroupPolicy/Settings/Registry" xsi:type="q3:RegistrySettings">
+        <q3:Policy>
+          <q3:Name>Include command line in process creation events</q3:Name>
+          <q3:State>Enabled</q3:State>
+          <q3:Explain>This policy setting determines what information is logged in security audit events when a new process has been created.
+
+This setting only applies when the Audit Process Creation policy is enabled. If you enable this policy setting the command line information for every process will be logged in plain text in the security event log as part of the Audit Process Creation event 4688, "a new process has been created," on the workstations and servers on which this policy setting is applied.
+
+If you disable or do not configure this policy setting, the process's command line information will not be included in Audit Process Creation events.
+
+Default: Not configured
+
+Note: When this policy setting is enabled, any user with access to read the security events will be able to read the command line arguments for any successfully created process. Command line arguments can contain sensitive or private information such as passwords or user data.
+      </q3:Explain>
+          <q3:Supported>At least Windows Server 2012 R2, Windows 8.1 or Windows RT 8.1</q3:Supported>
+          <q3:Category>System/Audit Process Creation</q3:Category>
+        </q3:Policy>
+        <q3:Blocked>false</q3:Blocked>
+      </Extension>
+      <Name>Registry</Name>
+    </ExtensionData>
+  </Computer>
+  <User>
+    <VersionDirectory>1</VersionDirectory>
+    <VersionSysvol>1</VersionSysvol>
+    <Enabled>true</Enabled>
+    <ExtensionData>
+      <Extension xmlns:q4="http://www.microsoft.com/GroupPolicy/Settings/Registry" xsi:type="q4:RegistrySettings">
+        <q4:Policy>
+          <q4:Name>Turn on Module Logging</q4:Name>
+          <q4:State>Enabled</q4:State>
+          <q4:Explain>
+        This policy setting allows you to turn on logging for Windows PowerShell modules.
+
+        If you enable this policy setting, pipeline execution events for members of the specified modules are recorded in the Windows PowerShell log in Event Viewer. Enabling this policy setting for a module is equivalent to setting the LogPipelineExecutionDetails property of the module to True.
+
+        If you disable this policy setting, logging of execution events is disabled for all Windows PowerShell modules. Disabling this policy setting for a module is equivalent to setting the LogPipelineExecutionDetails property of the module to False.
+
+        If this policy setting is not configured, the LogPipelineExecutionDetails property of a module or snap-in determines whether the execution events of a module or snap-in are logged. By default, the LogPipelineExecutionDetails property of all modules and snap-ins is set to False.
+
+        To add modules and snap-ins to the policy setting list, click Show, and then type the module names in the list. The modules and snap-ins in the list must be installed on the computer.
+
+        Note: This policy setting exists under both Computer Configuration and User Configuration in the Group Policy Editor. The Computer Configuration policy setting takes precedence over the User Configuration policy setting.
+      </q4:Explain>
+          <q4:Supported>At least Microsoft Windows 7 or Windows Server 2008 family</q4:Supported>
+          <q4:Category>Windows Components/Windows PowerShell</q4:Category>
+          <q4:Text>
+            <q4:Name>To turn on logging for one or more modules, click Show, and then type the module names in the list. Wildcards are supported.</q4:Name>
+          </q4:Text>
+          <q4:ListBox>
+            <q4:Name>Module Names</q4:Name>
+            <q4:State>Enabled</q4:State>
+            <q4:ExplicitValue>false</q4:ExplicitValue>
+            <q4:Additive>false</q4:Additive>
+            <q4:Value>
+              <q4:Element>
+                <q4:Data>*</q4:Data>
+              </q4:Element>
+            </q4:Value>
+          </q4:ListBox>
+          <q4:Text>
+            <q4:Name>To turn on logging for the Windows PowerShell core modules, type the following module names in the list:</q4:Name>
+          </q4:Text>
+          <q4:Text>
+            <q4:Name>Microsoft.PowerShell.*</q4:Name>
+          </q4:Text>
+          <q4:Text>
+            <q4:Name>Microsoft.WSMan.Management</q4:Name>
+          </q4:Text>
+        </q4:Policy>
+        <q4:Policy>
+          <q4:Name>Turn on PowerShell Script Block Logging</q4:Name>
+          <q4:State>Enabled</q4:State>
+          <q4:Explain>
+        This policy setting enables logging of all PowerShell script input to the Microsoft-Windows-PowerShell/Operational event log. If you enable this policy setting,
+        Windows PowerShell will log the processing of commands, script blocks, functions, and scripts - whether invoked interactively, or through automation.
+        
+        If you disable this policy setting, logging of PowerShell script input is disabled.
+        
+        If you enable the Script Block Invocation Logging, PowerShell additionally logs events when invocation of a command, script block, function, or script
+        starts or stops. Enabling Invocation Logging generates a high volume of event logs.
+        
+        Note: This policy setting exists under both Computer Configuration and User Configuration in the Group Policy Editor. The Computer Configuration policy setting takes precedence over the User Configuration policy setting.
+      </q4:Explain>
+          <q4:Supported>At least Microsoft Windows 7 or Windows Server 2008 family</q4:Supported>
+          <q4:Category>Windows Components/Windows PowerShell</q4:Category>
+          <q4:CheckBox>
+            <q4:Name>Log script block invocation start / stop events:</q4:Name>
+            <q4:State>Enabled</q4:State>
+          </q4:CheckBox>
+        </q4:Policy>
+        <q4:Blocked>false</q4:Blocked>
+      </Extension>
+      <Name>Registry</Name>
+    </ExtensionData>
+  </User>
+</GPO>
