@@ -2,8 +2,6 @@
 
 Logmira has been created as a helpful download of Microsoft Windows Domain Group Policy Object settings. This GPO Backup inclues our recommended windows logging settings for all supported versions of MS Windows Server. As opposed to following a list and manualy modifying 100 or so settings, it's way easier to just import it from a backup.
 
-<b> NOTE:</b> Applying these settings are NOT recommended for devices with HDDs. The iop limits on spinning disks can cause issues with the delay of logs when they are a high volume.
-
 <h2>Logmira Files</h2>
 <ul>
 <li>Logmira.zip contains the full GPO backup of only the recommended windows logging settings.</li>
